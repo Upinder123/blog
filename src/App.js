@@ -34,9 +34,7 @@ class App extends Component {
     let root = document.querySelector(":root");
     root.style.setProperty("--color-home", color);
   };
-  render() {
-    return (
-
+  render() { return (
       <Router>
         <div className="App">
           <Header />
@@ -58,12 +56,8 @@ class App extends Component {
             </ul>
           </nav>
           <Hero />
-
           <div className="container">
-
             <Switch>
-
-
               <Route exact path="/" component={MainPage} />
               <Route path="/about" component={About} />
               <Route exact path="/post/:postId" component={Post} />
@@ -73,11 +67,9 @@ class App extends Component {
               <Route path="/" ><h1>Blog</h1></Route>
             </Switch>
           </div>
-
         </div>
       </Router>
-    );
-  }
+    );}
 }
 
 export default App;
