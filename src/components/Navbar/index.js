@@ -6,7 +6,7 @@
 
 import React,{ Component } from 'react';
 import {
-    BrowserRouter as Router,
+    BrowserRouter as 
     Switch,
     Route,
     Link,

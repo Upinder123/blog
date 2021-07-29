@@ -30,7 +30,7 @@ const AllPosts  = (props) => {
      
 
 
-      <div className="col-md-3">
+      <div key="image_post" className="col-md-3">
 
 
            <img src={post.blogImage} style={{width: "100%"}} />
