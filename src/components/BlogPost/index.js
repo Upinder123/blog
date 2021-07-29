@@ -35,10 +35,10 @@ if(post.blogImage == "") return null;
 
 
 
-<h3 class="my-5">{post.blogTitle}</h3>
+<h3 className="my-5">{post.blogTitle}</h3>
 <div className="post-thumb">
 
-<span class="blog-post-tag">{post.blogCategory}</span>
+<span className="blog-post-tag">{post.blogCategory}</span>
   <img src={post.blogImage} style={{width:"100%"}}/>
   
   {/* <img src={require('../../assets/images/mustang.jpg')} /> */}

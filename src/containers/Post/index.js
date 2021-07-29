@@ -13,12 +13,12 @@ const Post = (props) => {
   return(
 
 <div className="row justify-content-between">
-<div class="col-md-8 ">
+<div className="col-md-8 ">
 <BlogPost {...props}/>
 
 
 </div>
-<div class="col-md-offset-2 col-md-2 mt-5" style={{height:"50vh", overflow:"hidden;"}}><Sidebar /></div>
+<div className="col-md-offset-2 col-md-2 mt-5" style={{height:"50vh", overflow:"hidden"}}><Sidebar /></div>
 
 </div>
 

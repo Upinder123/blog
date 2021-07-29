@@ -27,9 +27,9 @@ const Projects = (props) => {
   
     <div>
       <div className="blog-post-container">
-        <h3 class="my-5">{Projects.blogTitle}</h3>
+        <h3 className="my-5">{Projects.blogTitle}</h3>
         <div className="post-thumb">
-          <span class="blog-post-tag">{Projects.blogCategory}</span>
+          <span className="blog-post-tag">{Projects.blogCategory}</span>
           <img src={Projects.blogImage} style={{ width: "100%" }} />
 
           {/* <img src={require('../../assets/images/mustang.jpg')} /> */}

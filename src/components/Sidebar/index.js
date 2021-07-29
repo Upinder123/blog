@@ -30,7 +30,7 @@ const Sidebar = (props) => {
 
 
 
-            <div >
+            <div>
 
 
               <img style={{ width: "100%" }} src={post.blogImage} />
