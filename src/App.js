@@ -5,12 +5,9 @@ import Hero from './components/Hero';
 import About from './containers/About';
 import Post from './containers/Post';
 import Projects from './components/Projects';
-import Navbar from './components/Navbar';
-import AllPosts from './components/AllPosts';
-import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import MainPage from './pages';
-import PageNotFound from './pages/404';
 
 class App extends Component {
   componentDidUpdate() {
