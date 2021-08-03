@@ -1,7 +1,29 @@
 {
     "data" : [
-        {
+         {
             "id": 1,
+            "blogCategory": "Algo",
+            "blogTitle" : "MinMax Algorithm",
+            "slug": "",
+            "postedOn": "June 19, 2020",
+            "author": "Upinderjit Singh",
+            "blogImage": "https://ik.imagekit.io/zpll1op2lnc/index_yMjsUEL88UQ.jpeg?updatedAt=1628013288119",
+            "blogText": "Mini-max algorithm is a recursive or backtracking algorithm which is used in decision-making and game theory. It provides an optimal move for the player assuming that opponent is also playing optimally.Mini-Max algorithm uses recursion to search through the game-tree.Min-Max algorithm is mostly used for game playing in AI. Such as Chess, Checkers, tic-tac-toe, go, and various tow-players game. This Algorithm computes the minimax decision for the current state.In this algorithm two players play the game, one is called MAX and other is called MIN. Both the players fight it as the opponent player gets the minimum benefit while they get the maximum benefit.Both Players of the game are opponent of each other, where MAX will select the maximized value and MIN will select the minimized value. The minimax algorithm performs a depth-first search algorithm for the exploration of the complete game tree.The minimax algorithm proceeds all the way down to the terminal node of the tree, then backtrack the tree as the recursion."
+
+        },
+     {
+            "id": 2,
+            "blogCategory": "React",
+            "blogTitle" : "Webpack",
+            "slug": "",
+            "postedOn": "June 19, 2020",
+            "author": "Upinderjit Singh",
+            "blogImage": "https://ik.imagekit.io/zpll1op2lnc/icon-square-big_dXlprsp8AeT.png?updatedAt=1628012866349",
+            "blogText": "webpack is an open-source JavaScript module bundler. It is made primarily for JavaScript, but it can transform front-end assets such as HTML, CSS, and images if the corresponding loaders are included. webpack takes modules with dependencies and generates static assets representing those modules.i have worked with webpack before but this time it was differnet as i could have played and it a bit as this time i had a ai system
+ "
+        },
+        {
+            "id": 3,
             "blogCategory": "React",
             "blogTitle" : "ESlint",
             "slug": "",
@@ -11,7 +33,7 @@
             "blogText": "ES lint is a tool  which helps in statically analyzing your code to quickly find problems. ESLint is built into most text editors and you can run ESLint as part of your continuous integration pipeline. Basically what i learned through setting it up is that it solves a very good problem which i never realised i has that was whenever i used to code for some new organization or person there coding standards are differnt so basically it automatically helps us to adjust to them as this acts as a co-pilot to show us the problems with our code In ryaz we basically follow air-bnb hence it is just one of many standards we can even add something new i have used eslint before but as a visual studio extension but i didnt knew we can seriously change a and customise this much as then i started researching about this tool in detail     ESLint uses Espree for JavaScript parsing learned that ESLint uses an AST to evaluate patterns in code. then basically matches the pattern ESLint is completely pluggable, every single rule is a plugin and you can add more at runtime. i used it to check my projects and i had a lot of errors i am definetally going to use this tool in every single one of my projects in future"
         },
         {
-            "id": 2,
+            "id": 4,
             "blogCategory": "React",
             "blogTitle": "Coding Quality",
             "slug": "",
@@ -21,7 +43,7 @@
             "blogText": "Learned about 2 website to test the quality of my code one was code climate and other was deepscan.io hence altough bothrated my code poor and i didnt know about them earlier but now i have learned once i got the thought that if i could have found them when i was in my first year my code would have improved drastically but now to i am checking my code and learning more and more making me more industry oriented there are a lot of points which i learned best one was breakdown hence where can my code breakdown normally i write test and still want to learn about functioning of bothe websites but i will study thier code andd post an put a update of this blog  "
         },
         {
-            "id": 3,
+            "id": 5,
             "blogCategory": "React Firebase Aurdino",
             "blogTitle": "Smart Farming Station",
             "slug": "",
